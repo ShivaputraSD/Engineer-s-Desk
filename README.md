@@ -55,7 +55,6 @@ An interactive **Roadmap Website** built with **HTML, CSS, and JavaScript** that
 
 * 📖 **Data Sources**
 
-  * Inspired by **[roadmap.sh](https://roadmap.sh/roadmaps)**
   * Extended with more categories from other learning sources
 
 ## 🛠️ Tech Stack
