@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #03071c;
+    background-image: radial-gradient(white 1px,transparent 1px);
+    background-size: 50px 50px;
+    color: white;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #03071c;
+    background-image: radial-gradient(white 1px,transparent 1px);
+    background-size: 50px 50px;
+}
+
+.mainLogo{
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1em;
+}
+
+header .auth {
+    border-color: rgb(165, 192, 221);
+    padding:0px 0px 0px 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.community, .about-us {
+    width: 45%;
+    border: 1px solid #ddd;
+    padding: 1em;
+}
+
+.subsections {
+    display: flex;
+    flex-direction: column;
+    gap: 00.5em;
+    margin-top: 1em;
+}
+
+button {
+    padding: 00.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #ddd;
+}
+
+.signup {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="search"] {
+    padding: 0.5em;
+}
+.selectors{
+    font-size: medium;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    background-color: #2b2d55;
+    color: white;
+    border-radius: 10px;
+}
+.selectors:hover{
+    transform:translateY(-7px);
+}
+.instruction{
+    width: 85%;
+    background-color: rgb(1, 1, 47);
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 10px 20px 10px 20px;
+}
