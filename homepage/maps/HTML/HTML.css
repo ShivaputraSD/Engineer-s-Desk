@@ -1,0 +1,27 @@
+body{
+    background-color:#03071c;
+    background-image: radial-gradient(white 1px,transparent 1px);
+    background-size: 50px 50px;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+.whyHTML{
+    background-color: rgb(1, 1, 47);
+    display: block;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 10px 20px 10px 20px;
+}
+
+.pdf{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
